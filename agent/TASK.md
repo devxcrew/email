@@ -27,8 +27,7 @@ Production deployment and real SMTP acceptance remain deferred. No pending exter
 
 Master: [all foundation tasks](D:/codexsun/projects/cxsun/agent/CHECKLIST.md).
 
-Updated: 2026-10-04. Checked steps have recorded local evidence.
-Parents retain incomplete acceptance gates. Mail tests and production deployment are deferred by user.
+Updated: 2026-10-04. Checked steps have recorded evidence. External acceptance stays pending.
 
 ### Phase 01 - Baseline and ownership
 
@@ -37,7 +36,7 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 ### Phase 02 - Public contracts and release scope
 
-- [ ] **02.07 Define public delivery and failure contracts** - in-review. Owner: email.
+- [x] **02.07 Define public delivery and failure contracts** - accepted. Owner: email.
   - [x] 02.07.1 TLS transport, validation, timeouts and safe errors implemented.
   - [x] 02.07.2 Accept timeout, retry and token usability policy with Platform.
 
@@ -53,7 +52,7 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
   - [x] 06.07.1 Two configuration tests, build and truthful disabled behavior pass.
   - [ ] 06.07.2 Verify actual TLS provider connection and recipient lifecycle delivery. Deferred by user.
   - [x] 06.07.3 Verify standalone maintenance, version alignment, LF and five-file release artifact.
-  - [ ] 06.07.4 Select distribution license and approve initial package publication.
+  - [x] 06.07.4 Select distribution license and approve initial package publication.
 
 <!-- foundation-checklist:end -->
 
@@ -115,3 +114,8 @@ Release title: Deliver initial email source.
 Record the public TLS SMTP provider, configuration validation, bounded transport and disabled delivery behavior. Real SMTP acceptance remains deferred.
 Update version records, review release checks, then commit and push the current owner branch.
 Preserve existing task history and incomplete acceptance gates.
+
+
+## Registry consumer acceptance - 2026-10-04
+
+Two independent generated apps passed exact registry installation, application verification, module boundaries and live SQLite checks. Cross-app session denial passed. Cxsun three-OS CI passed in run 37204145628. See projects/cxsun/agent/GENERATED-CONSUMERS.json and RELEASE-PACKAGES.json. Browser acceptance and future version upgrade rehearsal remain separate.
