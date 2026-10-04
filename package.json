@@ -1,0 +1,50 @@
+{
+  "name": "@devxcrew/email",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devxcrew/email.git"
+  },
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/email.provider.d.ts",
+      "default": "./dist/email.provider.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=26.10.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run build && npm test",
+    "mcp:connect": "node agent/connect.mjs",
+    "check": "npm run verify && devxcrew-tools check:versions && devxcrew-tools lines:check",
+    "release:check": "npm run check && npm pack --dry-run",
+    "version-bump": "devxcrew-tools version:bump",
+    "version:show": "devxcrew-tools version:show",
+    "check:versions": "devxcrew-tools check:versions",
+    "fix:line-endings": "devxcrew-tools lines:fix",
+    "lines:check": "devxcrew-tools lines:check",
+    "github:now": "devxcrew-tools github:now"
+  },
+  "dependencies": {
+    "nodemailer": "^10.0.13",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/nodemailer": "^8.0.1",
+    "typescript": "7.0.2",
+    "@devxcrew/tools": "0.1.7"
+  },
+  "license": "UNLICENSED"
+}
