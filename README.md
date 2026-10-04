@@ -13,3 +13,11 @@ Verification and delivery errors are safe and never return credentials or messag
 
 Configure credentials in ignored environment files. Run provider.verify() against the configured service before production.
 No real configured-provider delivery has been claimed by unit tests.
+
+## Delivery failure ownership
+
+This provider returns a receipt only after the transport accepts the intended recipient.
+Timeouts are ambiguous: the remote service can accept a message before the local request fails.
+Platform owns token invalidation, explicit resend, and recovery usability. See the Platform identity delivery contract.
+This provider does not retry automatically. It does not claim exactly-once delivery.
+The MIT license covers first-party code. Dependencies retain their own license terms.

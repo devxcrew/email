@@ -43,3 +43,8 @@ User authorization: update versions and changelogs, then commit and push all wor
 Record the public TLS SMTP provider, configuration validation, bounded transport and disabled delivery behavior. Real SMTP acceptance remains deferred.
 Authenticated MCP connection passed for this owner before release work.
 This delivery covers GitHub source. Npm publication, production deployment and real email acceptance remain separate gates.
+
+## Completion wave evidence - 2026-10-04
+
+npm run release:check passed two tests, build, metadata and a five-file MIT package. Real SMTP remains deferred.
+Authenticated MCP passed before work. New or expanded three-OS CI requires actual remote run evidence. Npm publication and deployed acceptance remain open.

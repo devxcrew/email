@@ -1,4 +1,23 @@
-# Email addon current task
+# Current task
+
+## Completion wave - 2026-10-04
+
+Initial 0.1.0 source is committed to devxcrew/email. Maintenance and the five-file artifact check exist. The user selected MIT in this wave. Real SMTP testing remains deferred. Three-OS CI is added.
+
+- [x] Reconcile current status with the GitHub source release and latest owner audit.
+- [x] Retrieve fresh authenticated cloud governance before this wave.
+- [x] Apply the user-selected MIT license to first-party source, package metadata and lock metadata.
+- [x] Record this wave's affected checks and accept only gates with direct evidence.
+
+npm run release:check passed two tests, build, metadata and a five-file MIT package. Real SMTP remains deferred.
+- [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
+- [ ] Verify this wave's exact GitHub CI results.
+
+
+Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
+Production deployment and real SMTP acceptance remain deferred. No pending external gate is marked complete.
+
+## Prior records
 
 <!-- foundation-checklist:start -->
 
