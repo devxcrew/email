@@ -2,6 +2,8 @@
 
 ## Completion wave - 2026-10-04
 
+- [x] Publish the approved MIT package 0.1.0 and verify its registry checksum against the prepared archive.
+
 Initial 0.1.0 source is committed to devxcrew/email. Maintenance and the five-file artifact check exist. The user selected MIT in this wave. Real SMTP testing remains deferred. Three-OS CI is added.
 
 - [x] Reconcile current status with the GitHub source release and latest owner audit.
@@ -11,7 +13,7 @@ Initial 0.1.0 source is committed to devxcrew/email. Maintenance and the five-fi
 
 npm run release:check passed two tests, build, metadata and a five-file MIT package. Real SMTP remains deferred.
 - [x] Prepare isolated CI coverage for the target Windows/Linux/macOS runtime.
-- [ ] Verify this wave's exact GitHub CI results.
+- [x] Verify Windows/Linux/macOS CI: run 37202030559.
 
 
 Use projects/cxsun/agent/REMAINING-WORK.md for ordered cross-owner dependencies.
@@ -37,7 +39,7 @@ Parents retain incomplete acceptance gates. Mail tests and production deployment
 
 - [ ] **02.07 Define public delivery and failure contracts** - in-review. Owner: email.
   - [x] 02.07.1 TLS transport, validation, timeouts and safe errors implemented.
-  - [ ] 02.07.2 Accept timeout, retry and token usability policy with Platform.
+  - [x] 02.07.2 Accept timeout, retry and token usability policy with Platform.
 
 ### Phase 05 - Tools, guidance and delivery
 

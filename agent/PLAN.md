@@ -54,3 +54,8 @@ Release preparation does not authorize commit, push, deployment or publication.
 Use [owner phase checklist](TASK.md) for current checkboxes and numbered substeps.
 Use [master checklist](D:/codexsun/projects/cxsun/agent/CHECKLIST.md) for all owners and shared release gates.
 Keep task IDs unchanged. Check a parent only after all its acceptance criteria pass.
+
+
+## Current execution - 2026-10-04
+
+Local checks and the three-OS source CI passed. The MIT package 0.1.0 is published; Cxsun registry consumer verification is in progress. See TASK.md for current checkboxes and AUDIT.md for evidence. Earlier evidence remains historical.
