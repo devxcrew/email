@@ -71,3 +71,10 @@ The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.
 Release checks (two tests) and fresh source consumers passed. Source 0.1.1 remains unpublished; real SMTP remains untested.
 
 Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.
+
+## npm release verification - 2026-10-05
+
+- Verify latest package @devxcrew/email 0.1.1 and registry archive checksums.
+- Verify a fresh five-package registry installation, public imports, TypeScript UI imports and Tools CLI.
+- Pass persisted SQLite migrations and reopen with Framework and Platform.
+- Production dependency audit reports zero vulnerabilities. SMTP and deployment remain deferred.
