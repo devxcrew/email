@@ -35,7 +35,9 @@
     "check:versions": "devxcrew-tools check:versions",
     "fix:line-endings": "devxcrew-tools lines:fix",
     "lines:check": "devxcrew-tools lines:check",
-    "github:now": "devxcrew-tools github:now"
+    "github:now": "devxcrew-tools github:now",
+    "changelog:append": "devxcrew-tools changelog:append",
+    "changelog:show": "devxcrew-tools changelog:show"
   },
   "dependencies": {
     "nodemailer": "^10.0.13",

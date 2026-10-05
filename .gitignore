@@ -3,3 +3,7 @@ dist/
 .env
 storage/
 *.tgz
+.cache/
+*.log
+.env.*
+!.env.example

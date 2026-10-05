@@ -10,6 +10,16 @@ Changelog label: v 0.1.1
 
 ## v-0.1.1
 
+### [v 0.1.1] 2026-10-05 12:47 pm - Record Email acceptance and exclude local artifacts
+
+#### Database Changes
+
+- Database update: No (manual).
+
+#### App Codebase Changes
+
+- Record two tests and source consumer acceptance; add changelog scripts and ignore local artifacts. Real SMTP acceptance remains separate.
+
 ### [v 0.1.1] 2026-10-05 8:38 am - Align workspace packages
 
 #### Database Changes
@@ -54,3 +64,10 @@ Generic TLS SMTP provider and standalone maintenance scripts. No package publica
 
 Source version: 0.1.1. Published package archives retain their existing versions.
 The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.
+
+
+## Unreleased alignment - 2026-10-05
+
+Release checks (two tests) and fresh source consumers passed. Source 0.1.1 remains unpublished; real SMTP remains untested.
+
+Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.
