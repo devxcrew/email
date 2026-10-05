@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-05",
+  "package": "@devxcrew/email",
+  "sourceVersion": "0.1.1",
+  "tests": 2,
+  "releaseChecks": "passed",
+  "registryStatus": "publication-in-progress",
+  "deferred": [
+    "production deployment",
+    "real SMTP delivery"
+  ],
+  "artifact": {
+    "filename": "devxcrew-email-0.1.1.tgz",
+    "shasum": "ce9e928be505c725e1000a2e264933979bdeea44",
+    "integrity": "sha512-7uaCqTJ6+s2GNXyq3/tzCC+CmRervYkVTdRwjACNp1f13L6Za1mVELwWReFE+du+rUe0epBGhWM5SDirmqSk5Q=="
+  }
+}

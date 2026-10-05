@@ -1,0 +1,41 @@
+{
+  "@devxcrew/email": {
+    "id": "@devxcrew/email@0.1.1",
+    "name": "@devxcrew/email",
+    "version": "0.1.1",
+    "size": 3130,
+    "unpackedSize": 7283,
+    "shasum": "ce9e928be505c725e1000a2e264933979bdeea44",
+    "integrity": "sha512-7uaCqTJ6+s2GNXyq3/tzCC+CmRervYkVTdRwjACNp1f13L6Za1mVELwWReFE+du+rUe0epBGhWM5SDirmqSk5Q==",
+    "filename": "devxcrew-email-0.1.1.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1065,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 1341,
+        "mode": 420
+      },
+      {
+        "path": "dist/email.provider.d.ts",
+        "size": 782,
+        "mode": 420
+      },
+      {
+        "path": "dist/email.provider.js",
+        "size": 2563,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1532,
+        "mode": 420
+      }
+    ],
+    "entryCount": 5,
+    "bundled": []
+  }
+}

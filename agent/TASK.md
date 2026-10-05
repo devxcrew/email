@@ -136,3 +136,13 @@ The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.
 Release checks (two tests) and fresh source consumers passed. Source 0.1.1 remains unpublished; real SMTP remains untested.
 
 Authenticated live MCP verification passed. See the [alignment audit](D:/codexsun/projects/cxsun/agent/SHARED-ALIGNMENT.md). Version numbers remain unchanged. No release delivery was performed by this audit.
+
+## npm release audit - 2026-10-05
+
+- [x] Retrieve authenticated live governance.
+- [x] Review public exports, dependency ownership and release artifact scope.
+- [x] Run owner release checks.
+- [ ] Verify registry installation and the latest tag.
+
+Source version: 0.1.1. SMTP and deployment acceptance remain deferred.
+Tools 0.1.9 already matches its published archive and needs no republish.
