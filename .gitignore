@@ -7,3 +7,5 @@ storage/
 *.log
 .env.*
 !.env.example
+
+.cache-npm-*
