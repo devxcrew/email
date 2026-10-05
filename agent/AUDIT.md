@@ -51,3 +51,13 @@ Authenticated MCP passed before work. New or expanded three-OS CI requires actua
 
 
 Three-OS source CI passed: GitHub Actions run 37202030559 on Node 26.10.0 and npm 12.2.0.
+
+## Dependency alignment - 2026-10-05
+
+- [x] Align consumed shared packages and common direct dependency versions.
+- [x] Install dependencies with lifecycle scripts disabled.
+- [x] Keep app dependency ownership and public peer ranges.
+- [x] Exclude Veyrezio from this change.
+
+Source version: 0.1.1. Published package archives retain their existing versions.
+The baseline is recorded in projects/cxsun/agent/DEPENDENCY-BASELINE.json.
